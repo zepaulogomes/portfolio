@@ -28,7 +28,7 @@ My work has helped companies achieve the goal of **$1MM USD in ARR** and increas
 
 
 **Associate Product Manager @ Gabriel (_August 2021 - December 2021_)**
-- Develop a product from 0 to 1 (from comcept to MVP)
+- Develop a product from 0 to 1 (from concept to MVP)
 - Development of embedded software: equipment provisioning, observability, distributed database, version/update management, distributed deployment, embedded computer vision algorithms and integration with all Gabriel's envirionment
 - Instalation on first customer, gathering feedbacks during installation for process improvement
 - Gabriel's first internal product release
