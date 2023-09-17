@@ -107,12 +107,12 @@ author:
   name             : "Zé Paulo"
   avatar           : "/assets/images/bio-photo.jpeg"
   bio              : "Tech Product Manager"
-  location         : "São Paulo, Brazil"
+  location         : "São Paulo, Brasil"
   email            : 
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://zepaulo.com.br"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://zepaulo.com.br"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:96josegomes@gmail.com"
@@ -142,6 +142,7 @@ include:
   - .htaccess
   - _pages
   - _posts
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -263,11 +264,17 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  portifolio:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
 # _posts
   - scope:
-      path: "posts"
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -283,18 +290,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
   # _portfolio
   - scope:
       path: ""
