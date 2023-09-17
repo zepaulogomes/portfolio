@@ -7,6 +7,6 @@ main:
   - title: "Postagens"
     url: /posts/
   - title: "Sobre mim"
-    url: /about/
+    url: /sobre/
   # - title: "Sitemap"
   #   url: /sitemap/

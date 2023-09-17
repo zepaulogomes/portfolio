@@ -74,6 +74,35 @@ en: &DEFAULT_EN
                                 [Full journey illustration](https://youtu.be/kxDgwb8cqzY)\n\n
                                 [Process documentation](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
                                 [Process documentation and Manuals](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
+  # About me                  
+  about_me_intro             : "I'm a Tech Product Manager, helping business growth, solving user's problems and leading cross-functional teams to deliver value.\n\n
+                                My work has helped companies achieve the goal of **$1MM USD in ARR** and increase revenue by **R$700,000.00** in lifetime value within two months.\n\n"
+  about_me_education         : "## Education\n\n
+                                - B.S., Information systems | Fluminense Federal University (September. 2021)\n
+                                - Product Management immersion | Produtos Incríveis (August 2022)\n
+                                - Product Leadership | Awari (April 2023)\n
+                                - Product LEadership immersion | Produtos Incríveis (May 2023)\n
+                                - Product Marketing | Awari (August 2023)\n\n"
+  about_me_work_experience   : "## Work Experience\n\n
+                                **Product Manager @ Gabriel (_January 2022 - Present_)**\n\n
+                                - Increased revenue by **R$700,000.00** in lifetime value and 19% reduction in CAPEX \n
+                                - First production deployment of Gabriel's hardware (50+ clients)\n
+                                - Definition of processes and best practices (manufacturing, testing, inventory, provisioning, installation, maintenance, and refurbishment)\n
+                                - Development of embedded software: operating system, equipment provisioning, observability, distributed database, streaming management, connectivity management (4G vs ethernet), version/update management, distributed deployment to more than 500 installed devices, ensuring availability greater than 98%\n
+                                - Deployment monitoring through automated dashboards that collect real-time information (observability)\n
+                                - Participation in the supply chain and manufacturing: from development to production, definition of first design (prototype), search for suppliers in Brazil and China, product homologation
+                                \n\n
+                                **Associate Product Manager @ Gabriel (_August 2021 - December 2021_)**\n
+                                - Develop a product from 0 to 1 (from concept to MVP)\n
+                                - Development of embedded software: equipment provisioning, observability, distributed database, version/update management, distributed deployment, embedded computer vision algorithms and integration with all Gabriel's envirionment\n
+                                - Instalation on first customer, gathering feedbacks during installation for process improvement\n
+                                - Gabriel's first internal product release\n
+                                \n\n
+                                **Freelancer developer @ VectorizeMove (_April 2020 - July 2020_)**\n
+                                - Development of the second version of the App\n
+                                - Task control and refinement\n
+                                - Configuration of the CI/CD pipeline\n
+                                - Integration with embedded systems\n\n"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -162,3 +191,33 @@ pt-BR: &DEFAULT_PT
                                 [Jornada de instalação](https://youtu.be/kxDgwb8cqzY)\n\n
                                 [Documentação de processos](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
                                 [Manuais de instalação](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
+  # About me                  
+  about_me_intro             : "Sou um Tech Product Manager, e ajudo no crescimento de negócios, resolvendo problemas dos usuários e liderando equipes multifuncionais para entregar valor.\n\n
+                                Meu trabalho ajudou empresas a alcançarem a meta de $1MM de dólares em Receita Recorrente Anual (ARR) e aumentar a receita em R$700.000,00 em *life time value* em apenas dois meses.\n\n"
+  about_me_education         : "## Edução\n\n
+                                - Bacharelado em Sistemas de Informação | Universidade Federal Fluminense (setembro de 2021)\n
+                                - Imersão em PM Start | Produtos Incríveis (agosto de 2022)\n
+                                - Liderança em Gerenciamento de Produtos | Awari (abril de 2023)\n
+                                - Imersão em Liderança em Gerenciamento de Produtos | Produtos Incríveis (maio de 2023)\n
+                                - Marketing de Produtos | Awari (agosto de 2023)\n\n"
+  about_me_work_experience   : "## Experiência\n\n
+                                **Gerente de Produto @ Gabriel (Janeiro de 2022 - Presente)**\n
+                                - Aumento da receita em **R$700.000,00** em valor ao longo da vida do cliente e redução de 19% nos gastos de capital (CAPEX).\n
+                                - Primeira implantação de produção do hardware da Gabriel (mais de 50 clientes).\n
+                                - Definição de processos e melhores práticas (fabricação, teste, inventário, provisionamento, instalação, manutenção e recondicionamento).\n
+                                - Desenvolvimento de software embarcado: sistema operacional, provisionamento de equipamentos, observabilidade, banco de dados distribuído, gerenciamento de streaming, gerenciamento de conectividade (4G vs. Ethernet), gerenciamento de versão/atualização, implantação distribuída para mais de 500 dispositivos instalados, garantindo disponibilidade superior a 98%.\n
+                                - Monitoramento da implantação por meio de painéis automatizados que coletam informações em tempo real (observabilidade).\n
+                                - Participação na cadeia de suprimentos e fabricação: desde o desenvolvimento até a produção, definição do primeiro design (protótipo), busca por fornecedores no Brasil e na China, homologação de produtos.
+                                \n\n
+                                **Gerente de Produto Associado @ Gabriel (agosto de 2021 - dezembro de 2021)**\n\n
+                                - Desenvolvimento de um produto do zero ao lançamento inicial (do conceito ao Produto Mínimo Viável - MVP).\n
+                                - Desenvolvimento de software embarcado: provisionamento de equipamentos, observabilidade, banco de dados distribuído, gerenciamento de versão/atualização, implantação distribuída, algoritmos de visão computacional embarcada e integração com todo o ambiente da Gabriel.\n
+                                - Instalação no primeiro cliente, coleta de feedback durante a instalação para melhorias de processo.\n
+                                - Primeiro lançamento interno de produto da Gabriel.\n
+                                - Além de atuar como gerente de produto, atuei como desenvolvedor focado, principalemnte, na implementação da interface gráfica.\n
+                                \n\n
+                                **Desenvolvedor freelancer @ VectorizeMove (_Abril 2020 - Julho 2020_)**\n
+                                - Desenvolvimento da segunda versão do aplicativo.\n
+                                - Controle e aprimoramento de tarefas.\n
+                                - Configuração do pipeline de integração contínua/entrega contínua (CI/CD).\n
+                                - Integração com sistemas embarcados.\n\n"
