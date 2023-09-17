@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Home"
-    url: /
+  # - title: "Home"
+  #   url: /
   - title: "Portifólio"
     url: /portifolio/
-  - title: "Posts"
+  - title: "Postagens"
     url: /posts/
-  - title: "About"
+  - title: "Sobre mim"
     url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/

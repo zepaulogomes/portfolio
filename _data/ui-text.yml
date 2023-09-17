@@ -50,6 +50,30 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+  # Sistema Nervoso
+  sistema_nervoso_intro      : "Since day one, Gabriel has relied on its cameras as a crucial physical infrastructure to extract intelligence from the streets. Consequently, from its inception, Gabriel has dealt with the complexity of customized installations for each client.\n\n
+                                Moreover, the solution's architecture is highly intricate. It involves a nano-computer installed at each client location, utilizing wired internet to transmit videos 24/7 to our cloud and store them on an AWS server. Additionally, the installation of the infrastructure, including network cables, conduits, bends, junctions, and channels, is complex and requires a unique design for each client.\n\n
+                                Another challenge faced by Gabriel was the reliance on wired internet, which often did not exist in certain condominiums. At a certain point, Gabriel took on the task of procuring broadband internet for clients.\n\n"
+  sistema_nervoso_develpment : "Consequently, our team had to tackle the following challenges:\n
+                                - Reduce installation time from 1.5 days to less than 2 hours.\n
+                                - Eliminate the need for clients to contract wired internet services.\n
+                                - Decrease the number of SKU variants.\n
+                                - Reduce CapEx.\n\n
+                                With these objectives in mind, our team, consisting of 3x Hardware Engineers, 1x Process Analyst, and 1x Product Manager, developed the Nervous System, a powerful and streamlined processing center.\n\n
+                                The Minimum Viable Product (MVP), known as \"Rack\", was composed of readily available market items such as a Raspberry Pi, a switch, and an external hard drive. This solution worked for months until it was validated. Once validated, the team began developing a single board with integrated components to reduce costs, equipment preparation time, and installation time.\n\n
+                                Months later, the current version known as the Nervous System was introduced. The photo below illustrates the physical evolution from the Rack (left) to the Nervous System (right). The significant difference in the latter was the utilization of a mobile LTE network.\n\n"
+  sistema_nervoso_results    : "With the Nervous System, we achieved the following:\n\n
+                                - Lowered CapEx by **17%**.\n
+                                - Decreased Gabriel's installation time at a client location by 97%.\n
+                                - Reduced the number of SKU variants by 59%.\n
+                                - Reduced installation time by 5 days by eliminating the need for wired internet.\n
+                                - Decreased infrastructure requirements by over 80%.\n\n
+                                As a direct result of these improvements, our efforts yielded a significant increase in Gabriel's revenue. Within a mere two-month timeframe, we successfully generated an additional **R$700,000.00** by exclusively catering to the needs of 50 clients whose contractual agreements were in jeopardy due to the absence of wired broadband internet connectivity.\n\n"
+  sistema_nervoso_artifacts  : "### Some of our deliverables:\n\n
+                                [A recap of all deliveries](https://youtu.be/1ADOdOIUni8)\n\n
+                                [Full journey illustration](https://youtu.be/kxDgwb8cqzY)\n\n
+                                [Process documentation](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
+                                [Process documentation and Manuals](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -114,3 +138,27 @@ pt-BR: &DEFAULT_PT
   search_algolia_no_results  : "Nenhum resultado"
   results_found              : "Resultado(s) encontrado(s)"
   back_to_top                : "Voltar para o topo"
+  # Sistema Nervoso
+  sistema_nervoso_intro      : "Desde o primeiro dia, Gabriel tem contado com suas câmeras como uma infraestrutura física crucial para extrair inteligência das ruas. Como resultado, desde o seu início, Gabriel lidou com a complexidade de instalações personalizadas para cada cliente.\n\n
+                                Além disso, a arquitetura da solução é altamente intrincada. Ela envolve a instalação de um nano-computador em cada localização do cliente, utilizando a internet com fio para transmitir vídeos 24/7 para nossa nuvem e armazená-los em um servidor AWS. Além disso, a instalação da infraestrutura, incluindo cabos de rede, dutos, curvas, junções e canais, é complexa e requer um design único para cada cliente.\n\n
+                                Outro desafio enfrentado pela Gabriel foi a dependência da internet com fio, que muitas vezes não existia em determinados condomínios. Em um certo momento, a Gabriel assumiu a tarefa de adquirir internet banda larga para os clientes.\n\n"
+  sistema_nervoso_develpment : "Consequentemente, nossa equipe teve que enfrentar os seguintes desafios::\n
+                                - Reduzir o tempo de instalação de 1,5 dias para menos de 2 horas.\n
+                                - Eliminar a necessidade de os clientes contratarem serviços de internet cabeada.\n
+                                - Diminuir o número de SKUs.\n
+                                - Reduzir o CAPEX.\n\n
+                                Com esses objetivos em mente, nossa equipe, composta por 3 Engenheiros de Hardware, 1 Analista de Processos e 1 Gerente de Produto, desenvolveu o Sistema Nervoso, um centro de processamento poderoso e otimizado.\n\n
+                                O Produto Mínimo Viável (MVP), conhecido como \"Rack\", era composto por itens prontamente disponíveis no mercado, como um Raspberry Pi, um switch e um disco rígido externo. Essa solução funcionou por meses até ser validada. Uma vez validada, a equipe começou a desenvolver uma placa única com componentes integrados para reduzir custos, tempo de preparação do equipamento e tempo de instalação.\n\n
+                                Meses depois, a versão atual, conhecida como o Sistema Nervoso, foi introduzida. A foto abaixo ilustra a evolução física do Rack (à esquerda) para o Sistema Nervoso (à direita). A diferença significativa neste último foi a utilização de uma rede LTE móvel.\n\n"
+  sistema_nervoso_results    : "Com o Sistema Nervoso, alcançamos:\n\n
+                                - Redução de 17% no CAPEX.\n
+                                - Diminuição do tempo de instalação 97%.\n
+                                - Redução de 59% na quantidade de SKUs.\n
+                                - Redução de 5 dias no tempo de instalação ao eliminar a necessidade de internet cabeada.\n
+                                - Redução de mais de 80% em infraestrutura.\n\n
+                                Como resultado direto dessas melhorias, nossos esforços resultaram em um aumento significativo na receita da Gabriel. Em um período de apenas dois meses, conseguimos gerar com sucesso um adicional de **R$700.000,00**, atendendo exclusivamente às necessidades de 50 clientes cujos contratos estavam em risco devido à ausência de conectividade de internet banda larga com fio.\n\n"
+  sistema_nervoso_artifacts  : "### Alguns artefatos criados:\n\n
+                                [Recaptualção das entregas](https://youtu.be/1ADOdOIUni8)\n\n
+                                [Jornada de instalação](https://youtu.be/kxDgwb8cqzY)\n\n
+                                [Documentação de processos](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
+                                [Manuais de instalação](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
