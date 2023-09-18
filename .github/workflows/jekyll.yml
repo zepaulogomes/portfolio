@@ -35,9 +35,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.10  # Use a versão do Ruby compatível com seu site Jekyll
+        ruby-version: '2.6.10'  # Use a versão do Ruby compatível com seu site Jekyll
+        bundler-cache: true
 
     - name: Install dependencies
       run: |
