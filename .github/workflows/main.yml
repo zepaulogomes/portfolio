@@ -1,0 +1,40 @@
+name: Build and Deploy Jekyll
+
+on:
+  push:
+    branches:
+      - main  # Defina a branch que ativará o fluxo de trabalho
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.10  # Use a versão do Ruby compatível com seu site Jekyll
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+      working-directory: .  # Isso deve estar na raiz do projeto
+
+    - name: Build Jekyll site
+      run: |
+        bundle exec jekyll build
+      working-directory: .
+
+    - name: Deploy to FTP
+      uses: wupton/ftp-action@v7
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets.FTP_PORT }}
+        localDir: ./_site  # Pasta que será transferida para o servidor FTP
+        remoteDir: ${{ secrets.FTP_FOLDER }}
