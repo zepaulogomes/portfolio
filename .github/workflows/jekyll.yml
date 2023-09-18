@@ -58,5 +58,5 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: ${{ secrets.FTP_PORT }}
-        # local-dir: ./_site/  # Pasta que será transferida para o servidor FTP
+        local-dir: ./_site/  # Pasta que será transferida para o servidor FTP
         server-dir: ${{ secrets.FTP_FOLDER }}
