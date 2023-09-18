@@ -51,11 +51,11 @@ jobs:
       working-directory: .
 
     - name: Deploy to FTP
-      uses: wupton/ftp-action@v7
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: ${{ secrets.FTP_PORT }}
-        localDir: ./_site  # Pasta que será transferida para o servidor FTP
-        remoteDir: ${{ secrets.FTP_FOLDER }}
+        local-dir: ./_site  # Pasta que será transferida para o servidor FTP
+        server-dir: ${{ secrets.FTP_FOLDER }}
