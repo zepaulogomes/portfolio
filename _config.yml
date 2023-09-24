@@ -143,6 +143,7 @@ include:
   - _pages
   - _posts
   - _portfolio
+  - assets
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
