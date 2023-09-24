@@ -63,17 +63,15 @@ en: &DEFAULT_EN
                                 The Minimum Viable Product (MVP), known as \"Rack\", was composed of readily available market items such as a Raspberry Pi, a switch, and an external hard drive. This solution worked for months until it was validated. Once validated, the team began developing a single board with integrated components to reduce costs, equipment preparation time, and installation time.\n\n
                                 Months later, the current version known as the Nervous System was introduced. The photo below illustrates the physical evolution from the Rack (left) to the Nervous System (right). The significant difference in the latter was the utilization of a mobile LTE network.\n\n"
   sistema_nervoso_results    : "With the Nervous System, we achieved the following:\n\n
-                                - Lowered CapEx by **17%**.\n
-                                - Decreased Gabriel's installation time at a client location by 97%.\n
-                                - Reduced the number of SKU variants by 59%.\n
-                                - Reduced installation time by 5 days by eliminating the need for wired internet.\n
-                                - Decreased infrastructure requirements by over 80%.\n\n
-                                As a direct result of these improvements, our efforts yielded a significant increase in Gabriel's revenue. Within a mere two-month timeframe, we successfully generated an additional **R$700,000.00** by exclusively catering to the needs of 50 clients whose contractual agreements were in jeopardy due to the absence of wired broadband internet connectivity.\n\n"
+                                - **Reduced CAPEX by 62%**\n
+                                - Reverted the loss of **49 clients**, adding a total of **R$700,000.00 in LTV**\n
+                                - Advanced payback by 15 months and increased IRR (annual) by **60 percentage points**\n
+                                - Reduced time to Aha! moment by **70%**\n
+                                - Utilized **data analysis** from App usage to identify improvements in the App registration process, increasing the registration conversion rate by **30%**\n
+                                - Worked with multidisciplinary teams of hardware engineers, computer vision, IoT experts and UI/UX designers\n\n"
   sistema_nervoso_artifacts  : "### Some of our deliverables:\n\n
                                 [A recap of all deliveries](https://youtu.be/1ADOdOIUni8)\n\n
-                                [Full journey illustration](https://youtu.be/kxDgwb8cqzY)\n\n
-                                [Process documentation](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
-                                [Process documentation and Manuals](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
+                                [Full journey illustration](https://youtu.be/kxDgwb8cqzY)\n\n"
   # About me                  
   about_me_intro             : "I'm a Tech Product Manager, helping business growth, solving user's problems and leading cross-functional teams to deliver value.\n\n
                                 My work has helped companies achieve the goal of **$1MM USD in ARR** and increase revenue by **R$700,000.00** in lifetime value within two months.\n\n"
@@ -98,7 +96,7 @@ en: &DEFAULT_EN
                                 - Instalation on first customer, gathering feedbacks during installation for process improvement\n
                                 - Gabriel's first internal product release\n
                                 \n\n
-                                **Freelancer developer @ VectorizeMove (_April 2020 - July 2020_)**\n
+                                **Freelancer developer @ Walkbeat (_April 2020 - July 2020_)**\n
                                 - Development of the second version of the App\n
                                 - Task control and refinement\n
                                 - Configuration of the CI/CD pipeline\n
@@ -188,12 +186,11 @@ pt-BR: &DEFAULT_PT
                                 Como resultado direto dessas melhorias, nossos esforços resultaram em um aumento significativo na receita da Gabriel. Em um período de apenas dois meses, conseguimos gerar com sucesso um adicional de **R$700.000,00**, atendendo exclusivamente às necessidades de 50 clientes cujos contratos estavam em risco devido à ausência de conectividade de internet banda larga com fio.\n\n"
   sistema_nervoso_artifacts  : "### Alguns artefatos criados:\n\n
                                 [Recaptualção das entregas](https://youtu.be/1ADOdOIUni8)\n\n
-                                [Jornada de instalação](https://youtu.be/kxDgwb8cqzY)\n\n
-                                [Documentação de processos](https://docs.google.com/presentation/d/142UzFJxmgNiQC0kfPhqR45t8w5v8JZkw/edit?usp=sharing&rtpof=true&sd=true)\n\n
-                                [Manuais de instalação](https://www.notion.so/Process-documentation-and-Manuals-fc7880812e844f88a7f75694e85dcb94?pvs=21)\n\n"
+                                [Jornada de instalação](https://youtu.be/kxDgwb8cqzY)\n\n"
+                                
   # About me                  
-  about_me_intro             : "Sou um Tech Product Manager, e ajudo no crescimento de negócios, resolvendo problemas dos usuários e liderando equipes multifuncionais para entregar valor.\n\n
-                                Meu trabalho ajudou empresas a alcançarem a meta de $1MM de dólares em Receita Recorrente Anual (ARR) e aumentar a receita em R$700.000,00 em *life time value* em apenas dois meses.\n\n"
+  about_me_intro             : "Sou um Tech Product Manager e ajudo no crescimento de negócios, resolvendo problemas dos usuários e liderando equipes multifuncionais para entregar valor.\n\n
+                                Meu trabalho ajudou empresas a alcançarem a meta de **USD $1MM** em Receita Recorrente Anual (ARR) e aumentar a receita em **R$700.000,00** em *life time value* em apenas dois meses.\n\n"
   about_me_education         : "## Edução\n\n
                                 - Bacharelado em Sistemas de Informação | Universidade Federal Fluminense (setembro de 2021)\n
                                 - Imersão em PM Start | Produtos Incríveis (agosto de 2022)\n
@@ -202,12 +199,13 @@ pt-BR: &DEFAULT_PT
                                 - Marketing de Produtos | Awari (agosto de 2023)\n\n"
   about_me_work_experience   : "## Experiência\n\n
                                 **Gerente de Produto @ Gabriel (Janeiro de 2022 - Presente)**\n
-                                - Aumento da receita em **R$700.000,00** em valor ao longo da vida do cliente e redução de 19% nos gastos de capital (CAPEX).\n
-                                - Primeira implantação de produção do hardware da Gabriel (mais de 50 clientes).\n
-                                - Definição de processos e melhores práticas (fabricação, teste, inventário, provisionamento, instalação, manutenção e recondicionamento).\n
-                                - Desenvolvimento de software embarcado: sistema operacional, provisionamento de equipamentos, observabilidade, banco de dados distribuído, gerenciamento de streaming, gerenciamento de conectividade (4G vs. Ethernet), gerenciamento de versão/atualização, implantação distribuída para mais de 500 dispositivos instalados, garantindo disponibilidade superior a 98%.\n
-                                - Monitoramento da implantação por meio de painéis automatizados que coletam informações em tempo real (observabilidade).\n
-                                - Participação na cadeia de suprimentos e fabricação: desde o desenvolvimento até a produção, definição do primeiro design (protótipo), busca por fornecedores no Brasil e na China, homologação de produtos.
+                                - **Reduzi o CAPEX em 62%**\n
+                                - Reverti a perda de **49 clientes**, adicionando um total de **R$700.000,00 em LTV**\n
+                                - Adiantei o payback em 15 meses e aumentou a TIR(a.a.) em **60 pontos percentuais**.\n
+                                - Diminui o tempo até o *Aha! moment* em **70%**\n
+                                - Com análise de dados oriundos do uso do App, consegui identificar melhoras no processo de cadastro do App e,
+                                com mudanças, **aumentei a taxa de conversão de registro em 30%**\n
+                                - Trabalhei com times multidisciplinares de engenheiros de hardware, Visão computacional, IoT e UI/UX designers\n
                                 \n\n
                                 **Gerente de Produto Associado @ Gabriel (agosto de 2021 - dezembro de 2021)**\n\n
                                 - Desenvolvimento de um produto do zero ao lançamento inicial (do conceito ao Produto Mínimo Viável - MVP).\n
@@ -216,7 +214,7 @@ pt-BR: &DEFAULT_PT
                                 - Primeiro lançamento interno de produto da Gabriel.\n
                                 - Além de atuar como gerente de produto, atuei como desenvolvedor focado, principalmente, na implementação da interface gráfica.\n
                                 \n\n
-                                **Desenvolvedor freelancer @ VectorizeMove (_Abril 2020 - Julho 2020_)**\n
+                                **Desenvolvedor freelancer @ Walkbeat (_Abril 2020 - Julho 2020_)**\n
                                 - Desenvolvimento da segunda versão do aplicativo.\n
                                 - Controle e aprimoramento de tarefas.\n
                                 - Configuração do pipeline de integração contínua/entrega contínua (CI/CD).\n
