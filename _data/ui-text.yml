@@ -178,7 +178,9 @@ pt-BR: &DEFAULT_PT
                                 O Produto Mínimo Viável (MVP), conhecido como \"Rack\", era composto por itens prontamente disponíveis no mercado, como um Raspberry Pi, um switch e um disco rígido externo. Essa solução funcionou por meses até ser validada. Uma vez validada, a equipe começou a desenvolver uma placa única com componentes integrados para reduzir custos, tempo de preparação do equipamento e tempo de instalação.\n\n
                                 Meses depois, a versão atual, conhecida como o Sistema Nervoso, foi introduzida. A foto abaixo ilustra a evolução física do Rack (à esquerda) para o Sistema Nervoso (à direita). A diferença significativa neste último foi a utilização de uma rede LTE móvel.\n\n"
   sistema_nervoso_results    : "Com o Sistema Nervoso, alcançamos:\n\n
-                                - Redução de 17% no CAPEX.\n
+                                - Redução de 62% no CAPEX.\n
+                                - Reverti a perda de 49 clientes, adicionando um total de R$700.000,00 em LTV\n
+                                - Adiantei o payback em 15 meses e aumentou a TIR(a.a.) em 60 pontos percentuais.\n
                                 - Diminuição do tempo de instalação 97%.\n
                                 - Redução de 59% na quantidade de SKUs.\n
                                 - Redução de 5 dias no tempo de instalação ao eliminar a necessidade de internet cabeada.\n
