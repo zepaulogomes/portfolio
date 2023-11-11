@@ -60,3 +60,11 @@ jobs:
         port: ${{ secrets.FTP_PORT }}
         local-dir: ./_site/  # Pasta que será transferida para o servidor FTP
         server-dir: ${{ secrets.FTP_FOLDER }}
+    
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v3
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
