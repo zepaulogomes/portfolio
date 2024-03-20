@@ -10,3 +10,5 @@ main:
     url: /sobre/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Políticas de privacidade"
+    url: /politicasdeprivacidade/

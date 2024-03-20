@@ -143,6 +143,7 @@ include:
   - _pages
   - _posts
   - _portfolio
+  - _politicasdeprivacidade
   - assets
 exclude:
   - "*.sublime-project"
@@ -268,6 +269,9 @@ compress_html:
 # Collections
 collections:
   portifolio:
+    output: true
+    permalink: /:collection/:path/
+  politicasdeprivacidade:
     output: true
     permalink: /:collection/:path/
 
